@@ -1,55 +1,41 @@
-# Open Web Analytics Server
-
-Open Web Analytics is an open source alternative to commercial web analytics tools such as Google Analytics. This software allows you to stay in control of the data you collect about the user of your websites or applications.
-
-This repository installs the OWA Server and Javascript tracking client which can easily be added to web pages. 
-
-- To add OWA tracking to a WordPress based website install the [OWA integration plugin](https://wordpress.org/plugins/open-web-analytics/) or see [this repository](https://github.com/Open-Web-Analytics/owa-wordpress-plugin).
-- To add OWA tracking to any PHP application use the [OWA PHP SDK](https://github.com/Open-Web-Analytics/owa-php-sdk)
-
-## Features
-
-- Track visitors, pageviews, e-commerce transactions, and configurable actions
-- Track unlimited number of websites using a single instance of OWA Server
-- First party Javascript tracker client
-- Reporting Dashboard/Portral
-- View and customize all reports
-- Generate Heatmaps
-- Generate "Domstream" session recordings
-- Geolocation of visitors
-- REST API for administration and data access
-- Multi user reporting interface
-- Extensible framework via custom modules
-
-## Requirements and Installation
-
-See the [technical requirements](https://github.com/Open-Web-Analytics/Open-Web-Analytics/wiki/Technical-Requirements) before you install OWA Server. A step by step [installation](https://github.com/Open-Web-Analytics/Open-Web-Analytics/wiki/Installation) guide will walk you through how to install OWA.
-
-## Documentation
-See the wiki for documentation about the OWA Server and the Javascript Tracker client.
-
-## Issues & Support
-
-Please read the [troubleshooting](https://github.com/Open-Web-Analytics/Open-Web-Analytics/wiki/Troubleshooting) guide before filing any issue or bug reports. Issue tickets without the necessary debug info will be closed automatically.
-
-## Development 
-
-To contribute to the Open Web Analytics for WordPress plugin you need to:
-
-1. Clone the repository
-2. Download and install [Composer](https://getcomposer.org/) for managing PHP dependencies.
-3. Run `composer install`
-
-
-## Donate to this project
-
-Open Web Analytics is free.  However, we ask that you donate to the project if you need support. Your donation helps fund the development of this project.
-
-[Donate to the project here](http://paypal.me/openwebanalytics).
-
-
-## Copyright and License
-
-This project is licensed under the [GNU GPL](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html), version 2 or later.
-
-&copy; [Peter Adams](http://peteradams.org).
+<div class="Box-sc-g0xbh4-0 QkQOb js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto" _msttexthash="5248139" _msthash="433">打开 Web Analytics Server</h1><a id="user-content-open-web-analytics-server" class="anchor" aria-label="永久链接：打开 Web Analytics Server" href="#open-web-analytics-server" _mstaria-label="961285" _msthash="434"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto" _msttexthash="960391471" _msthash="435">Open Web Analytics 是 Google Analytics 等商业 Web 分析工具的开源替代方案。该软件允许您控制您收集的有关您的网站或应用程序用户的数据。</p>
+<p dir="auto" _msttexthash="352655927" _msthash="436">此存储库安装 OWA 服务器和 Javascript 跟踪客户端，该客户端可以轻松添加到网页中。</p>
+<ul dir="auto">
+<li _msttexthash="311026183" _msthash="437">要将 OWA 跟踪添加到基于 WordPress 的网站，请安装 <a href="https://wordpress.org/plugins/open-web-analytics/" rel="nofollow" _istranslated="1">OWA 集成插件</a>或查看<a href="https://github.com/Open-Web-Analytics/owa-wordpress-plugin" _istranslated="1">此存储库</a>。</li>
+<li _msttexthash="127577229" _msthash="438">要将 OWA 跟踪添加到任何 PHP 应用程序，请使用 <a href="https://github.com/Open-Web-Analytics/owa-php-sdk" _istranslated="1">OWA PHP SDK</a></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto" _msttexthash="5209451" _msthash="439">特征</h2><a id="user-content-features" class="anchor" aria-label="永久链接：功能" href="#features" _mstaria-label="370552" _msthash="440"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li _msttexthash="155948481" _msthash="441">跟踪访问者、网页浏览量、电子商务交易和可配置操作</li>
+<li _msttexthash="138140847" _msthash="442">使用 OWA Server 的单个实例跟踪无限数量的网站</li>
+<li _msttexthash="72235059" _msthash="443">第一方 Javascript 跟踪链接客户端</li>
+<li _msttexthash="15396134" _msthash="444">报告仪表板/Portral</li>
+<li _msttexthash="37389222" _msthash="445">查看和自定义所有报告</li>
+<li _msttexthash="11616722" _msthash="446">生成热图</li>
+<li _msttexthash="41068261" _msthash="447">生成 “Domstream” 会话记录</li>
+<li _msttexthash="25073997" _msthash="448">访客的地理位置</li>
+<li _msttexthash="44278052" _msthash="449">用于管理和数据访问的 REST API</li>
+<li _msttexthash="25738947" _msthash="450">多用户报告界面</li>
+<li _msttexthash="64115675" _msthash="451">通过自定义模块实现可扩展框架</li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto" _msttexthash="16671044" _msthash="452">要求和安装</h2><a id="user-content-requirements-and-installation" class="anchor" aria-label="永久链接： 要求和安装" href="#requirements-and-installation" _mstaria-label="1264042" _msthash="453"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto" _msttexthash="312967837" _msthash="454">在安装 OWA Server 之前，请参阅<a href="https://github.com/Open-Web-Analytics/Open-Web-Analytics/wiki/Technical-Requirements" _istranslated="1">技术要求</a>。分步<a href="https://github.com/Open-Web-Analytics/Open-Web-Analytics/wiki/Installation" _istranslated="1">安装</a>指南将引导您完成如何安装 OWA。</p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto" _msttexthash="5144373" _msthash="455">文档</h2><a id="user-content-documentation" class="anchor" aria-label="永久链接： 文档" href="#documentation" _mstaria-label="559767" _msthash="456"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto" _msttexthash="188380218" _msthash="457">有关 OWA 服务器和 Javascript Tracker 客户端的文档，请参阅 wiki。</p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto" _msttexthash="16885037" _msthash="458">问题与支持</h2><a id="user-content-issues--support" class="anchor" aria-label="永久链接： 问题与支持" href="#issues--support" _mstaria-label="754143" _msthash="459"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto" _msttexthash="444430376" _msthash="460">在提交任何问题或错误报告之前，请阅读<a href="https://github.com/Open-Web-Analytics/Open-Web-Analytics/wiki/Troubleshooting" _istranslated="1">故障排除</a>指南。没有必要调试信息的 issue 票证将自动关闭。</p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto" _msttexthash="4410835" _msthash="461">发展</h2><a id="user-content-development" class="anchor" aria-label="永久链接： 开发" href="#development" _mstaria-label="480220" _msthash="462"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto" _msttexthash="219334102" _msthash="463">要为 Open Web Analytics for WordPress 插件做出贡献，您需要：</p>
+<ol dir="auto">
+<li _msttexthash="14783678" _msthash="464">克隆存储库</li>
+<li _msttexthash="79211223" _msthash="465">下载并安装 <a href="https://getcomposer.org/" rel="nofollow" _istranslated="1">Composer</a> 来管理 PHP 依赖项。</li>
+<li><font _mstmutation="1" _msttexthash="3303755" _msthash="466">跑</font><code>composer install</code></li>
+</ol>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto" _msttexthash="21260876" _msthash="467">向此项目捐款</h2><a id="user-content-donate-to-this-project" class="anchor" aria-label="永久链接： Donate to this project" href="#donate-to-this-project" _mstaria-label="836914" _msthash="468"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto" _msttexthash="714417418" _msthash="469">Open Web Analytics 是免费的。但是，如果您需要支持，我们要求您为该项目捐款。您的捐款有助于资助该项目的开发。</p>
+<p dir="auto" _msttexthash="39051935" _msthash="470"><a href="http://paypal.me/openwebanalytics" rel="nofollow" _istranslated="1">在此处为该项目捐款</a>。</p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto" _msttexthash="15666365" _msthash="471">版权和许可</h2><a id="user-content-copyright-and-license" class="anchor" aria-label="永久链接： 版权和许可" href="#copyright-and-license" _mstaria-label="811993" _msthash="472"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto" _msttexthash="127199956" _msthash="473">本项目采用 <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html" rel="nofollow" _istranslated="1">GNU GPL</a> 版本 2 或更高版本进行许可。</p>
+<p dir="auto">© <font _mstmutation="1" _msttexthash="17034134" _msthash="474"><a href="http://peteradams.org" rel="nofollow" _mstmutation="1" _istranslated="1">彼得·亚当斯</a>。</font></p>
+</article></div>
